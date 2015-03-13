@@ -33,26 +33,27 @@ body {
 	text-align: center;
 }
 
+.buttons a {
+	text-decoration: none;
+}
+
 /* Help with the transparency comes from: http://stackoverflow.com/questions/2323399/semi-transparent-div-in-a-webpage */
 #content {
 	/* For browsers that can't handle rgba */
 	background-color: #814E33;
-	
+
 	/* 40% opacity for browsers that can handle it */
 	background-color:rgba(129, 78, 51, 0.25);
-	
+
 	/* For IE 5.5+, #BB000000 is ~40% opacity on black */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#28000000, endColorstr=#28000000);
-	
+
 	/* IE 8 support */
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#28000000, endColorstr=#28000000)";
-	
+
 	/* Help with rounding the corners from http://www.css3.info/preview/rounded-border/ */
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	
 	margin: 0% 5% 0% 65%;
 	padding: 0% 1% 0% 1%;
-	
-	height: 45%;
 }
